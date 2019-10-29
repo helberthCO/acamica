@@ -1,0 +1,17 @@
+body{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    background: #0c1011;
+}
+.title, p{
+    text-transform: uppercase;
+    text-align: center;
+    font-family: sans-serif;
+    color: white;
+}
+p:hover{
+    cursor: pointer;
+    color: darkred;
+}
