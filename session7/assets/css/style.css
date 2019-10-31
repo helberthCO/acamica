@@ -34,7 +34,7 @@ figure:after{
     margin: auto;
     background: red;
     transform: rotate(0deg);
-    transform-origin: left bottom;
+    transform-origin: left;
     animation: clock 60s linear forwards infinite;
 }
 img{
