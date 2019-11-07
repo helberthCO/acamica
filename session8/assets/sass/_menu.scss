@@ -1,0 +1,13 @@
+.primary-nav{
+  ul{
+    display: flex;
+  }
+  li{
+    list-style: none;
+    margin: 0 15px;
+  }
+  &__items{
+    text-transform: uppercase;
+    text-decoration: none;
+  }
+}

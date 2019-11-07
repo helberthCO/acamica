@@ -1,0 +1,32 @@
+//Color Variables
+$primary_color: #66c1ff;
+$black: #222;
+$white: #fff;
+
+//Font Variables
+$primary_font: 'Montserrat', sans-serif; //300 //400 //600
+
+@mixin pseudo($left:false, $top:false, $right:false, $bottom:false, $z:false, $margin: auto){
+  content: '';
+  display: block;
+  @if $left {left: $left};
+  @if $top {top: $top};
+  @if $right {right: $right};
+  @if $bottom {bottom: $bottom};
+  @if $z {z-index: $z};
+  margin: $margin;
+}
+%animate{
+  transition: all 400ms ease-in-out;
+};
+%btn{
+  padding: 7px 20px;
+  background: $primary_color;
+  color: $white;
+  text-transform: uppercase;
+  text-align: center;
+  @extend %animate;
+  &:hover{
+    background: $black;
+  }
+}

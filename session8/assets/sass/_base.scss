@@ -1,0 +1,15 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+  color: $black;
+  font: {
+    family: $primary_font;
+    weight: 400;
+    size: 16px;
+  };
+}
+.btn{
+  @extend %btn;
+}
