@@ -1,0 +1,29 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+  position: relative;
+  color: $black;
+  font: {
+    family: $primary_font;
+    weight: 400;
+    size: 16px;
+  };
+}
+.btn{
+  @extend %btn;
+}
+.wrapper, .container, .small-container{
+  width: 100%;
+  margin: 0 auto;
+}
+.wrapper{
+  max-width: 1920px;
+}
+.container{
+  max-width: 1500px;
+}
+.small-container{
+  max-width: 1170px;
+}

@@ -1,0 +1,22 @@
+.header{
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 99;
+  box-shadow: 0 0 8px 0 rgba($black, .25);
+  &__nav{
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    right: 100%;
+    top: 0;
+    background: $primary_color;
+    @extend %animate;
+  }
+  &__logo{
+    width: 40px;
+    height: 40px;
+    padding: 10px;
+  }
+}
